@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIView+MKAnnotationView.h
 //  MapKit
 //
 //  Created by Игорь Талов on 15.06.16.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController
+@interface UIView (MKAnnotationView)
 
+-(MKAnnotationView* )superAnnotationView;
 
 @end
-

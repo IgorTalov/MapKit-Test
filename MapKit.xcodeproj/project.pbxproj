@@ -9,10 +9,20 @@
 /* Begin PBXBuildFile section */
 		EED5EE261D115AD3001A3D4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED5EE251D115AD3001A3D4F /* main.m */; };
 		EED5EE291D115AD3001A3D4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED5EE281D115AD3001A3D4F /* AppDelegate.m */; };
-		EED5EE2C1D115AD3001A3D4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED5EE2B1D115AD3001A3D4F /* ViewController.m */; };
 		EED5EE2F1D115AD3001A3D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED5EE2D1D115AD3001A3D4F /* Main.storyboard */; };
 		EED5EE311D115AD3001A3D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED5EE301D115AD3001A3D4F /* Assets.xcassets */; };
 		EED5EE341D115AD3001A3D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED5EE321D115AD3001A3D4F /* LaunchScreen.storyboard */; };
+		EED5EE3C1D115BB3001A3D4F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED5EE3B1D115BB3001A3D4F /* MapKit.framework */; };
+		EED5EE3E1D115BC2001A3D4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED5EE3D1D115BC2001A3D4F /* CoreGraphics.framework */; };
+		EED5EE401D115BC9001A3D4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED5EE3F1D115BC9001A3D4F /* UIKit.framework */; };
+		EED5EE421D115BD2001A3D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED5EE411D115BD2001A3D4F /* Foundation.framework */; };
+		EED5EE451D116B23001A3D4F /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EED5EE441D116B23001A3D4F /* MapAnnotation.m */; };
+		EED5EE481D11EA4C001A3D4F /* UIView+MKAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EED5EE471D11EA4C001A3D4F /* UIView+MKAnnotationView.m */; };
+		EEDED9FD1D16ACEE00AA0E29 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDED9FC1D16ACEE00AA0E29 /* Student.m */; };
+		EEDEDA051D17107200AA0E29 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDEDA041D17107100AA0E29 /* DetailViewController.m */; };
+		EEDEDA081D17108C00AA0E29 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDEDA071D17108C00AA0E29 /* MapViewController.m */; };
+		EEDEDA0B1D180E4800AA0E29 /* MeetingPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDEDA0A1D180E4800AA0E29 /* MeetingPlace.m */; };
+		EEDEDA0E1D187E1E00AA0E29 /* StudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDEDA0D1D187E1E00AA0E29 /* StudentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,28 @@
 		EED5EE251D115AD3001A3D4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EED5EE271D115AD3001A3D4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EED5EE281D115AD3001A3D4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EED5EE2A1D115AD3001A3D4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EED5EE2B1D115AD3001A3D4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EED5EE2E1D115AD3001A3D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EED5EE301D115AD3001A3D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED5EE331D115AD3001A3D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED5EE351D115AD3001A3D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED5EE3B1D115BB3001A3D4F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EED5EE3D1D115BC2001A3D4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EED5EE3F1D115BC9001A3D4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EED5EE411D115BD2001A3D4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EED5EE431D116B23001A3D4F /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		EED5EE441D116B23001A3D4F /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		EED5EE461D11EA4C001A3D4F /* UIView+MKAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MKAnnotationView.h"; sourceTree = "<group>"; };
+		EED5EE471D11EA4C001A3D4F /* UIView+MKAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MKAnnotationView.m"; sourceTree = "<group>"; };
+		EEDED9FB1D16ACEE00AA0E29 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		EEDED9FC1D16ACEE00AA0E29 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		EEDEDA031D17107100AA0E29 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EEDEDA041D17107100AA0E29 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EEDEDA061D17108C00AA0E29 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EEDEDA071D17108C00AA0E29 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EEDEDA091D180E4800AA0E29 /* MeetingPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingPlace.h; sourceTree = "<group>"; };
+		EEDEDA0A1D180E4800AA0E29 /* MeetingPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingPlace.m; sourceTree = "<group>"; };
+		EEDEDA0C1D187E1E00AA0E29 /* StudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentViewController.h; sourceTree = "<group>"; };
+		EEDEDA0D1D187E1E00AA0E29 /* StudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED5EE421D115BD2001A3D4F /* Foundation.framework in Frameworks */,
+				EED5EE401D115BC9001A3D4F /* UIKit.framework in Frameworks */,
+				EED5EE3E1D115BC2001A3D4F /* CoreGraphics.framework in Frameworks */,
+				EED5EE3C1D115BB3001A3D4F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +72,10 @@
 		EED5EE181D115AD2001A3D4F = {
 			isa = PBXGroup;
 			children = (
+				EED5EE411D115BD2001A3D4F /* Foundation.framework */,
+				EED5EE3F1D115BC9001A3D4F /* UIKit.framework */,
+				EED5EE3D1D115BC2001A3D4F /* CoreGraphics.framework */,
+				EED5EE3B1D115BB3001A3D4F /* MapKit.framework */,
 				EED5EE231D115AD3001A3D4F /* MapKit */,
 				EED5EE221D115AD2001A3D4F /* Products */,
 			);
@@ -58,10 +92,12 @@
 		EED5EE231D115AD3001A3D4F /* MapKit */ = {
 			isa = PBXGroup;
 			children = (
+				EED5EE461D11EA4C001A3D4F /* UIView+MKAnnotationView.h */,
+				EED5EE471D11EA4C001A3D4F /* UIView+MKAnnotationView.m */,
 				EED5EE271D115AD3001A3D4F /* AppDelegate.h */,
 				EED5EE281D115AD3001A3D4F /* AppDelegate.m */,
-				EED5EE2A1D115AD3001A3D4F /* ViewController.h */,
-				EED5EE2B1D115AD3001A3D4F /* ViewController.m */,
+				EEDED9FE1D16AD1900AA0E29 /* Model */,
+				EEDEDA021D16B51800AA0E29 /* Controllers */,
 				EED5EE2D1D115AD3001A3D4F /* Main.storyboard */,
 				EED5EE301D115AD3001A3D4F /* Assets.xcassets */,
 				EED5EE321D115AD3001A3D4F /* LaunchScreen.storyboard */,
@@ -77,6 +113,32 @@
 				EED5EE251D115AD3001A3D4F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEDED9FE1D16AD1900AA0E29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EED5EE431D116B23001A3D4F /* MapAnnotation.h */,
+				EED5EE441D116B23001A3D4F /* MapAnnotation.m */,
+				EEDEDA091D180E4800AA0E29 /* MeetingPlace.h */,
+				EEDEDA0A1D180E4800AA0E29 /* MeetingPlace.m */,
+				EEDED9FB1D16ACEE00AA0E29 /* Student.h */,
+				EEDED9FC1D16ACEE00AA0E29 /* Student.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EEDEDA021D16B51800AA0E29 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EEDEDA0C1D187E1E00AA0E29 /* StudentViewController.h */,
+				EEDEDA0D1D187E1E00AA0E29 /* StudentViewController.m */,
+				EEDEDA061D17108C00AA0E29 /* MapViewController.h */,
+				EEDEDA071D17108C00AA0E29 /* MapViewController.m */,
+				EEDEDA031D17107100AA0E29 /* DetailViewController.h */,
+				EEDEDA041D17107100AA0E29 /* DetailViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +172,7 @@
 				TargetAttributes = {
 					EED5EE201D115AD2001A3D4F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = GU388YC6S7;
 					};
 				};
 			};
@@ -149,9 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED5EE2C1D115AD3001A3D4F /* ViewController.m in Sources */,
+				EEDEDA0B1D180E4800AA0E29 /* MeetingPlace.m in Sources */,
 				EED5EE291D115AD3001A3D4F /* AppDelegate.m in Sources */,
+				EED5EE481D11EA4C001A3D4F /* UIView+MKAnnotationView.m in Sources */,
+				EEDEDA0E1D187E1E00AA0E29 /* StudentViewController.m in Sources */,
+				EEDEDA081D17108C00AA0E29 /* MapViewController.m in Sources */,
+				EEDEDA051D17107200AA0E29 /* DetailViewController.m in Sources */,
 				EED5EE261D115AD3001A3D4F /* main.m in Sources */,
+				EED5EE451D116B23001A3D4F /* MapAnnotation.m in Sources */,
+				EEDED9FD1D16ACEE00AA0E29 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +330,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MapKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDeveloper.MapKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +343,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MapKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDeveloper.MapKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +371,7 @@
 				EED5EE3A1D115AD3001A3D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
